@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-context-recom-hider
+      name: '@local/dsh-context-recom-hider'
+      config: {}

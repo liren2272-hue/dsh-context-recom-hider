@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Context recommendation hider",
+    "description": "Hides the \"Thanks\" recommendation card (a DeepSeek Platform promo) that dsh-context draws at the top of its Context tab, without modifying the dsh-context package."
+  }
+}

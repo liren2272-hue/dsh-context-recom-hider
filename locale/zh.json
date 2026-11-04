@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "上下文推荐卡隐藏",
+    "description": "隐藏 dsh-context 在「上下文」标签页顶部绘制的「感谢」推荐卡（DeepSeek 平台推广位），不修改 dsh-context 插件本身。"
+  }
+}

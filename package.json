@@ -1,0 +1,32 @@
+{
+  "name": "@local/dsh-context-recom-hider",
+  "version": "1.0.0",
+  "icon": "./icon.svg",
+  "private": true,
+  "type": "module",
+  "description": "Hides the \"感谢 / Thanks\" recommendation card that dsh-context draws at the top of its 上下文 tab, without touching the installed dsh-context package.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale/*.json",
+    "README.md",
+    "selftest.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
